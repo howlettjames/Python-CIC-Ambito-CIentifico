@@ -1,3 +1,8 @@
+'''
+@author: Jaime Bastida
+@description: Class that represents a rational number with arithmetic and logic operations
+'''
+
 class Rational:
     def __init__(self, num=0, denom=1):
         if(denom == 0):
